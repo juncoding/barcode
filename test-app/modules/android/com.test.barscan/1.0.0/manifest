@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: barscan
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2015 by Your Company
+
+# these should not be edited
+name: barscan
+moduleid: com.test.barscan
+guid: c7ae6575-a8da-4b97-b982-613195c252a4
+platform: android
+minsdk: 4.0.0.GA

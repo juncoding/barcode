@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="me" layout="vertical">
+		<View id="cardback">
+			<ImageView id="barcode"/>
+			<Label id="barcodeNumber" class="barcodeNumber" onClick="_doShowBarcodeValue"/>
+		</View>
+		<Label id="barcodeType"/>
+		<Button id="scanButton" onClick="_doScanBarcode"/>
+	</Window>
+</Alloy>

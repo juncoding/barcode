@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="barscaninfo">將條碼置於鏡頭範圍內以進行掃描。</string>
+	<string name="titleScan">掃描條碼</string>
+	<string name="scanCancel">取消</string>
+	<string name="noFlashMsg">本機沒有閃光燈裝置!</string>
+</resources>

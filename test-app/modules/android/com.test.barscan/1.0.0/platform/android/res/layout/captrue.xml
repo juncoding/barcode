@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+	<FrameLayout
+	android:id="@+id/camera_preview"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_weight="1"
+	android:background="#00000000"
+	/>
+	
+	<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:visibility="visible"
+	android:id="@+id/buttonlayout"
+	>
+		<RelativeLayout
+		android:id="@+id/top_relative"
+		android:layout_width="fill_parent"
+		android:layout_height="44dp"
+		android:layout_alignParentTop="true"
+		android:background="@drawable/bar_backgroud"
+		>
+
+			<!--闪光灯开关-->
+			<Button android:id="@+id/flashBtn"
+			android:layout_width="44dp"
+			android:layout_height="44dp"
+			android:layout_alignParentLeft="true"
+			android:onClick="flash"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="8dp"
+			/>
+			<TextView
+			android:id="@+id/titleText"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:textColor="#A15209"
+			android:shadowColor="#FFFFFF"
+			android:shadowDx="0"
+			android:shadowDy="1"
+			android:shadowRadius="1"
+			android:textSize="24sp" />
+			<Button android:id="@+id/cancel"
+			android:layout_width="44dp"
+			android:layout_height="44dp"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:onClick="cancel"
+			android:background="@drawable/cancel"
+			/>
+		</RelativeLayout>
+		<com.test.barscan.zbar.CustomView
+		android:id="@+id/myview"
+		android:layout_width="240dp"
+		android:layout_height="160dp"
+		/>
+		<RelativeLayout
+		android:id="@+id/bottom_relative"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="30dp"
+		android:layout_marginLeft="15dp"
+		android:layout_marginRight="15dp"
+		android:layout_alignParentBottom="true">
+			<TextView
+			android:id="@+id/scanText"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:gravity="center"
+			android:textColor="#FFFFFF"
+			android:shadowColor="#000000"
+			android:shadowDx="0"
+			android:shadowDy="1"
+			android:shadowRadius="1"
+			/>
+		</RelativeLayout>
+
+	</RelativeLayout>
+</FrameLayout>

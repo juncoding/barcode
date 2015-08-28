@@ -1,0 +1,100 @@
+{
+  "global": {
+  },
+  "env:development": {
+  },
+  "env:test": {
+  },
+  "env:production": {
+  },
+  "os:android": {
+    "appActivityName": "com.test.Activity",
+    "localNotifyService": "com.test.LocalnotifyService",
+    "UI": {
+    },
+    "barCodes": {
+      "unsupported": {
+        "id": 0,
+        "type": "unsupported",
+        "scan": true
+      },
+      "qrcode": {
+        "id": 1,
+        "type": "qrcode",
+        "scan": true
+      },
+      "code39": {
+        "id": 2,
+        "type": "code39",
+        "scan": true
+      },
+      "isbn10": {
+        "id": 3,
+        "type": "isbn10",
+        "scan": false
+      },
+      "code128": {
+        "id": 4,
+        "type": "code128",
+        "scan": true
+      },
+      "upca": {
+        "id": 5,
+        "type": "upca",
+        "scan": true
+      },
+      "upce": {
+        "id": 6,
+        "type": "upce",
+        "scan": true
+      },
+      "ean13": {
+        "id": 7,
+        "type": "ean13",
+        "scan": true
+      },
+      "ean8": {
+        "id": 8,
+        "type": "ean8",
+        "scan": true
+      },
+      "itf": {
+        "id": 9,
+        "type": "itf",
+        "scan": true
+      },
+      "databar": {
+        "id": 10,
+        "type": "databar",
+        "scan": true
+      },
+      "databarexp": {
+        "id": 11,
+        "type": "databarexp",
+        "scan": false
+      },
+      "isbn13": {
+        "id": 12,
+        "type": "isbn13",
+        "scan": true
+      },
+      "pdf417": {
+        "id": 13,
+        "type": "pdf417",
+        "scan": false
+      },
+      "codabar": {
+        "id": 14,
+        "type": "codabar",
+        "scan": true
+      },
+      "aztec": {
+        "id": 15,
+        "type": "aztec",
+        "scan": false
+      }
+    }
+  },
+  "dependencies": {
+  }
+}

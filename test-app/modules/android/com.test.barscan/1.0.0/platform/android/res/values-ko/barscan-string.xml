@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="barscaninfo">바코드를 사각형 안에 비춰주세요.</string>
+	<string name="titleScan">바코드를 스캔</string>
+	<string name="scanCancel">취소</string>
+	<string name="noFlashMsg">기계 장치를 플래시하지 않습니다!</string>
+</resources>

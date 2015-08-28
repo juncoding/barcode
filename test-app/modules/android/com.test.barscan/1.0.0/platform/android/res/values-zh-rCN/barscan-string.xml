@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="barscaninfo">请将条码置于取景框内扫描。</string>
+	<string name="titleScan">扫描条码</string>
+	<string name="scanCancel">取消</string>
+	<string name="noFlashMsg">本机没有闪光灯装置!</string>
+</resources>

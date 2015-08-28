@@ -1,0 +1,57 @@
+"#me": {
+	backgroundImage: "/bg.png"
+}
+
+"#cardback":{
+	top: 75,
+	width: Alloy.CFG.UI.barcodeSize.standard.width,
+	height: Alloy.CFG.UI.barcodeSize.standard.height,
+	backgroundColor: 'white',
+	touchEnabled: false
+}
+
+"#barcodeType":{
+	top: 50,
+	width: Alloy.CFG.UI.barcodeNumber.width,
+	height: Alloy.CFG.UI.barcodeNumber.height,
+	font:{
+		fontFamily: Alloy.CFG.UI.fontFamily,
+		fontSize: Alloy.CFG.UI.fontSize.m34
+	},
+	minimumFontSize: Alloy.CFG.UI.fontSize.m15,
+	color: '#FFFFFF',
+	textAlign: 'center'
+}
+
+".barcode":{
+	top: Alloy.CFG.UI.size.m20,
+	left: Alloy.CFG.UI.barcode.left,
+	width: Alloy.CFG.UI.barcode.width,
+	height: Alloy.CFG.UI.barcode.height
+}
+
+".qrcode":{
+	top: Alloy.CFG.UI.QRCodeSize.noTextTop,
+	left: Alloy.CFG.UI.QRCodeSize.noTextLeft,
+	width: Alloy.CFG.UI.QRCodeSize.noText,
+	height: Alloy.CFG.UI.QRCodeSize.noText
+}
+
+".barcodeNumber":{
+	left: Alloy.CFG.UI.size.m18,
+	bottom: 20,
+	width: Alloy.CFG.UI.barcodeNumber.width,
+	height: Alloy.CFG.UI.barcodeNumber.height,
+	font:{
+		fontFamily: Alloy.CFG.UI.fontFamily,
+		fontSize: Alloy.CFG.UI.fontSize.m34
+	},
+	minimumFontSize: Alloy.CFG.UI.fontSize.m15,
+	color: '#000000',
+	textAlign: 'center'
+}
+
+"#scanButton": {
+	top: 50,
+	title: "Scan"
+}

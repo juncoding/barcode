@@ -1,0 +1,9 @@
+# Build folder and log file
+build/
+build.log
+Resources
+.DS_Store
+.project
+*.orig
+
+/.settings/

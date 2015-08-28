@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="barscaninfo">Place a barcode inside the viewfinder rectangle to scan it.</string>
+	<string name="titleScan">Scan barcode</string>
+	<string name="scanCancel">Cancel</string>
+	<string name="noFlashMsg">The machine does not flash device!</string>
+</resources>
